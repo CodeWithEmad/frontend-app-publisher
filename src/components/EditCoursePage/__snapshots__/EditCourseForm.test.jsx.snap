@@ -48,8 +48,38 @@ exports[`BaseEditCourseForm renders correctly when submitting for review 1`] = `
            All fields are required for publication unless otherwise specified.
         </span>
       </div>
+      <Form
+        className="mt-4"
+        inline={false}
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <FormLabel
+            isInline={false}
+          >
+            Fields Direction:
+          </FormLabel>
+          <div
+            className="ml-5 mt-1"
+          >
+            Left to Right
+            <ForwardRef
+              className="ml-2"
+              floatLabelLeft={false}
+              helperText="Determines the direction of the fields"
+              name="direction"
+              onChange={[Function]}
+              value={false}
+            >
+              Right to left
+            </ForwardRef>
+          </div>
+        </div>
+      </Form>
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         extraInput={
           Object {
@@ -109,6 +139,7 @@ exports[`BaseEditCourseForm renders correctly when submitting for review 1`] = `
       />
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         label={
           <FieldLabel
@@ -1848,8 +1879,38 @@ exports[`BaseEditCourseForm renders html correctly while submitting 1`] = `
            All fields are required for publication unless otherwise specified.
         </span>
       </div>
+      <Form
+        className="mt-4"
+        inline={false}
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <FormLabel
+            isInline={false}
+          >
+            Fields Direction:
+          </FormLabel>
+          <div
+            className="ml-5 mt-1"
+          >
+            Left to Right
+            <ForwardRef
+              className="ml-2"
+              floatLabelLeft={false}
+              helperText="Determines the direction of the fields"
+              name="direction"
+              onChange={[Function]}
+              value={false}
+            >
+              Right to left
+            </ForwardRef>
+          </div>
+        </div>
+      </Form>
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         extraInput={
           Object {
@@ -1909,6 +1970,7 @@ exports[`BaseEditCourseForm renders html correctly while submitting 1`] = `
       />
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         label={
           <FieldLabel
@@ -3686,8 +3748,38 @@ exports[`BaseEditCourseForm renders html correctly with administrator being true
            All fields are required for publication unless otherwise specified.
         </span>
       </div>
+      <Form
+        className="mt-4"
+        inline={false}
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <FormLabel
+            isInline={false}
+          >
+            Fields Direction:
+          </FormLabel>
+          <div
+            className="ml-5 mt-1"
+          >
+            Left to Right
+            <ForwardRef
+              className="ml-2"
+              floatLabelLeft={false}
+              helperText="Determines the direction of the fields"
+              name="direction"
+              onChange={[Function]}
+              value={false}
+            >
+              Right to left
+            </ForwardRef>
+          </div>
+        </div>
+      </Form>
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         extraInput={
           Object {
@@ -3747,6 +3839,7 @@ exports[`BaseEditCourseForm renders html correctly with administrator being true
       />
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         label={
           <FieldLabel
@@ -5830,8 +5923,38 @@ exports[`BaseEditCourseForm renders html correctly with all data present 1`] = `
            All fields are required for publication unless otherwise specified.
         </span>
       </div>
+      <Form
+        className="mt-4"
+        inline={false}
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <FormLabel
+            isInline={false}
+          >
+            Fields Direction:
+          </FormLabel>
+          <div
+            className="ml-5 mt-1"
+          >
+            Left to Right
+            <ForwardRef
+              className="ml-2"
+              floatLabelLeft={false}
+              helperText="Determines the direction of the fields"
+              name="direction"
+              onChange={[Function]}
+              value={false}
+            >
+              Right to left
+            </ForwardRef>
+          </div>
+        </div>
+      </Form>
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         extraInput={
           Object {
@@ -5891,6 +6014,7 @@ exports[`BaseEditCourseForm renders html correctly with all data present 1`] = `
       />
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         label={
           <FieldLabel
@@ -7668,8 +7792,38 @@ exports[`BaseEditCourseForm renders html correctly with minimal data 1`] = `
            All fields are required for publication unless otherwise specified.
         </span>
       </div>
+      <Form
+        className="mt-4"
+        inline={false}
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <FormLabel
+            isInline={false}
+          >
+            Fields Direction:
+          </FormLabel>
+          <div
+            className="ml-5 mt-1"
+          >
+            Left to Right
+            <ForwardRef
+              className="ml-2"
+              floatLabelLeft={false}
+              helperText="Determines the direction of the fields"
+              name="direction"
+              onChange={[Function]}
+              value={false}
+            >
+              Right to left
+            </ForwardRef>
+          </div>
+        </div>
+      </Form>
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         extraInput={
           Object {
@@ -7729,6 +7883,7 @@ exports[`BaseEditCourseForm renders html correctly with minimal data 1`] = `
       />
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         label={
           <FieldLabel
@@ -9418,8 +9573,38 @@ exports[`BaseEditCourseForm renders html correctly with skills data when skills 
            All fields are required for publication unless otherwise specified.
         </span>
       </div>
+      <Form
+        className="mt-4"
+        inline={false}
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <FormLabel
+            isInline={false}
+          >
+            Fields Direction:
+          </FormLabel>
+          <div
+            className="ml-5 mt-1"
+          >
+            Left to Right
+            <ForwardRef
+              className="ml-2"
+              floatLabelLeft={false}
+              helperText="Determines the direction of the fields"
+              name="direction"
+              onChange={[Function]}
+              value={false}
+            >
+              Right to left
+            </ForwardRef>
+          </div>
+        </div>
+      </Form>
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         extraInput={
           Object {
@@ -9479,6 +9664,7 @@ exports[`BaseEditCourseForm renders html correctly with skills data when skills 
       />
       <Field
         component={[Function]}
+        dir="ltr"
         disabled={true}
         label={
           <FieldLabel
